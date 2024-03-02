@@ -1,0 +1,15 @@
+
+
+<div >
+
+  <h1 class="text-lg font-bold">Acerca de</h1>
+  <p class="text-xs">Lorem ipsum dolor <span highlight >sit amet consectetur adipisicing elit. </span>Officiis suscipit assumenda optio at dolor soluta, enim deserunt incidunt temporibus voluptate hic tempore corporis, sint impedit ducimus exercitationem, fuga aspernatur eos.</p>
+  <p class="text-xs">Número de clientes: @if (duration()>0) {
+    <app-counter [duration]="duration()" [message]="message()"/>
+  }</p>
+
+  <div>
+    <app-wave-audio  audioUrl="assets/taylor.mp3"/>
+  </div>
+
+</div>
